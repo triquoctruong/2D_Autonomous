@@ -1,4 +1,4 @@
-// 2017/4/20
+// 2018/7/7
 //------------------------------------------------------
 //  (Autonomous 2-D PWC )
 //   parameters: gama1 = 1.12, gama2 = 7.8, beta = 11.0,
@@ -174,11 +174,7 @@ int main()
 															   (-b_beta11+sqrt(delta_beta11))/2/a_beta11,
 															   (-b_beta11R+sqrt(delta_beta11R))/2/a_beta11R);
     }
-	
-	/*for(beta=beta_start; beta<=beta_final; beta+=beta_delta)
-	{     
-	fprintf(fp2, "%3.20f, %3.20f, %3.20f\n", beta, 1+beta-gama1,beta*gama1);
-    }*/
+
 	fclose(fp1);
 //	fclose(fp2);
 	gclear_();
